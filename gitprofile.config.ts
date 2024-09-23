@@ -36,8 +36,8 @@ const CONFIG = {
   },
   social: {
     linkedin: 'shubham-sonthalia',
-    twitter: 'mnirony',
-    mastodon: 'arifszn@mastodon.social',
+    twitter: 'm_n_irony',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -61,20 +61,16 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'TypeScript',
+    'C++', 
+    'Rust',
+    'PostGreSql',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'AWS', 
+    'Docker'
   ],
   experiences: [
     {
@@ -99,27 +95,14 @@ const CONFIG = {
       companyLink: 'https://www.nethermind.io/',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  certifications: [],
   educations: [
     {
       institution: 'IIIT Delhi',
       degree: 'B.Tech',
       from: '2018',
       to: '2022',
-    },
-    {
-      institution: 'Allen Career Institute',
-      degree: 'JEE Coaching',
-      from: '2015',
-      to: '2018',
-    },
+    }
   ],
   publications: [],
   // Display articles from your medium or dev account. (Optional)
@@ -137,7 +120,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

@@ -35,8 +35,8 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'shubham-sonthalia',
-    twitter: 'm_n_irony',
+    linkedin: 'ssonthal',
+    twitter: 'ssonthal',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -49,7 +49,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '22999094/ssonthal', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://www.ssonthal.github.io',
